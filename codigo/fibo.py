@@ -11,8 +11,9 @@ def fibonacci(n):
     return fibo
 
 resultado = fibonacci(15)
-print(resultado)
+#print(resultado)
 
+#Clase test, a partir de aquí empieza el programa principal
 class test(unittest.TestCase):
     #El nombre debe empezar por "test", por algún motivo
     def test_hacer(self): 
